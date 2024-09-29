@@ -1,0 +1,1 @@
+7zip|https://www.7-zip.org/a/7z2408-x64.exe

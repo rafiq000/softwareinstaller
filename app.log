@@ -1,0 +1,11 @@
+2024-09-29 11:45:05,013 INFO:logger_config:Main directory changed to E:/project
+2024-09-29 11:45:40,672 INFO:logger_config:Added URL: 7zip - https://www.7-zip.org/a/7z2408-x64.exe
+2024-09-29 11:45:52,671 INFO:logger_config:Started download for 7zip from https://www.7-zip.org/a/7z2408-x64.exe
+2024-09-29 11:45:52,702 DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.7-zip.org:443
+2024-09-29 11:45:53,312 DEBUG:urllib3.connectionpool:https://www.7-zip.org:443 "GET /a/7z2408-x64.exe HTTP/11" 302 154
+2024-09-29 11:45:53,312 DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): github.com:443
+2024-09-29 11:45:53,859 DEBUG:urllib3.connectionpool:https://github.com:443 "GET /ip7z/7zip/releases/download/24.08/7z2408-x64.exe HTTP/11" 302 None
+2024-09-29 11:45:53,874 DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): objects.githubusercontent.com:443
+2024-09-29 11:45:55,171 DEBUG:urllib3.connectionpool:https://objects.githubusercontent.com:443 "GET /github-production-release-asset-2e65be/466446150/4e4bd070-bb80-41f4-b787-72bd5b200e3c?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20240929%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240929T054552Z&X-Amz-Expires=300&X-Amz-Signature=1eb9e1a556ab8b3a5d3677277ed658641cc49a77793b9e2c8f221a145d9be8f9&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3D7z2408-x64.exe&response-content-type=application%2Foctet-stream HTTP/11" 200 1624144
+2024-09-29 11:45:56,608 INFO:logger_config:Downloaded https://www.7-zip.org/a/7z2408-x64.exe to E:\project\downloads\7z2408-x64.exe
+2024-09-29 11:46:11,140 INFO:logger_config:Started installation of E:/project\downloads\7z2408-x64.exe
